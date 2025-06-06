@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    padding-top: 60px;
+    background-color: #fafafb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-container {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header img {
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #444444;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.login-card {
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+}
+
+form .input-container input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #eee;
+    outline: none;
+    color: #444;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .show-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+
+}
+
+.login-button {
+    width: 100%;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.forget-password {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #9b9b9b;
+    margin: 15px;
+}
+
+.icons-container {
+    width: 26%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-container img {
+    height: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.footer-logo {
+    margin: 28px 0px;
+}
+
+.signup-text {
+    color: #444;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.address-text {
+    text-align: center;
+    font-size: 10px;
+    color: #9b9b9b;
+    font-family: "Open Sans", sans-serif;
+    line-height: 18px;
+    width: 90%;
+}
+
+.address-text a {
+
+    color: #9b9b9b;
+    text-decoration: dotted;
+}
